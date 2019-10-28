@@ -10,3 +10,5 @@ wijzigingen:
 5: basis Js, express require link, viewengine ingesteld, landings pagina ingesteld, app listen ingesteld.
 
 6: 404 pagina gemaakt voor catch all.
+
+7: app.get voor catchall ingesteld, inhoud 404.ejs aangepast
