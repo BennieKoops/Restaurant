@@ -1,4 +1,5 @@
 wijzigingen:
+
 1: HTML in header en footer gezet.
 
 2: Index H1 en koppeling naar header en footer.
@@ -11,4 +12,6 @@ wijzigingen:
 
 6: 404 pagina gemaakt voor catch all.
 
-7: app.get voor catchall ingesteld, inhoud 404.ejs aangepast
+7: app.get voor catchall ingesteld, inhoud 404.ejs aangepast.
+
+8: Landings pagina HTML inhoud toegevoegd.

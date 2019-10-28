@@ -4,6 +4,7 @@ let app = express();
 
 app.set("view engine", "ejs");
 
+// landings pagina
 app.get("/", function (req, res) {
     res.render("index");
 });
