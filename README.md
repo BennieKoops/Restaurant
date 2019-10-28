@@ -19,3 +19,5 @@ wijzigingen:
 9: App.get ingesteld voor menu, review, blog en bestellingen pagina's.
 
 10: ejs bestanten aangemaakt voor bestellingen, blog, menu en reviews
+
+11: Header en Footer gelinkt aan nieuwe pagina's.
