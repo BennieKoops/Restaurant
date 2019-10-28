@@ -1,0 +1,11 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "A practice page making a website for a restaurant.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bennie Koops",
+  "license": "ISC"
+}
