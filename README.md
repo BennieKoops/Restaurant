@@ -15,3 +15,5 @@ wijzigingen:
 7: app.get voor catchall ingesteld, inhoud 404.ejs aangepast.
 
 8: Landings pagina HTML inhoud toegevoegd.
+
+9: App.get ingesteld voor menu, review, blog en bestellingen pagina's.
