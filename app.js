@@ -16,7 +16,7 @@ app.get("/", function (req, res) {
 
 // menu pagina
 app.get("/menu", function (req, res) {
-    res.send("Hier komt de menu pagina")
+    res.render("menu")
 });
 
 // Review pagina

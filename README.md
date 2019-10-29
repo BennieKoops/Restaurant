@@ -22,4 +22,6 @@ wijzigingen:
 
 11: Header en Footer gelinkt aan nieuwe pagina's.
 
-12: mongoose db verbinding ingesteld. Objecten in het commando zorgen ervoor dat er geen meldingen komen voor verouderde services.
+12: Mongoose db verbinding ingesteld. Objecten in het commando zorgen ervoor dat er geen meldingen komen voor verouderde services.
+
+13: Menu naar render gezet.
