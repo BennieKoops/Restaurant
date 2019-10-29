@@ -9,15 +9,23 @@ mongoose.connect("mongodb://localhost:27017/restaurant", {'useUnifiedTopology': 
 // viewengine instellen
 app.set("view engine", "ejs");
 
-// landings pagina verbinden en leveren
+// landings pagina weergeven
 app.get("/", function (req, res) {
     res.render("index");
 });
 
 // menu pagina
+// menu pagina weergeven
 app.get("/menu", function (req, res) {
     res.render("menu")
 });
+
+// nieuw menu item in de db zetten en menu pagina weergeven
+app.post("menu", function (req, res) {
+    
+});
+
+
 
 // Review pagina
 app.get("/reviews", function (req, res) {

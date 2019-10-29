@@ -25,3 +25,5 @@ wijzigingen:
 12: Mongoose db verbinding ingesteld. Objecten in het commando zorgen ervoor dat er geen meldingen komen voor verouderde services.
 
 13: Menu naar render gezet.
+
+14: Post route ingesteld voor menu.
