@@ -41,3 +41,5 @@ wijzigingen:
 20: post naar database van soep ingevoerd.
 
 21: app use bodyparser ingesteld zodat de gegevens uit het formulier in de db gezet worden.
+
+22: nieuwGerecht input radio ids veranderd in value, soepschema hernoemt naar schema, variabele aangemaakt die value van geselecteerde radio binnenhaald, mongoose model veranderd zodat variabele gebruikt wordt en hernoemd naar collectie, binnen post request gezet.

@@ -9,13 +9,13 @@ let app = express();
 // mongoose db verbinding
 mongoose.connect("mongodb://localhost:27017/restaurant", {'useUnifiedTopology': true, 'useNewUrlParser': true})
 
-var soepSchema = mongoose.Schema({
+var schema = mongoose.Schema({
     naamGerecht: String,
     prijs: Number,
     maxbestel: Number
 });
 
-var Soep = mongoose.model("Soepen", soepSchema)
+// var Soep = mongoose.model("Soepen", soepSchema)
 
 // viewengine instellen, hierdoor hoeft er geen filetype achter de namen gezet te worden.
 app.set("view engine", "ejs");
@@ -34,6 +34,9 @@ app.get("/menu", function (req, res) {
 
 // nieuw menu item in de db zetten en menu pagina weergeven
 app.post("/menu", function (req, res) {
+    var collectiekeuze = req.body.gang;
+    var collectie = mongoose.model(collectiekeuze, schema)
+
     var     naam    = req.body.naamGerecht;
     var     prijs   = req.body.prijs,
             maxaantal  = req.body.maxbestel;
@@ -42,7 +45,7 @@ app.post("/menu", function (req, res) {
         prijs: prijs, 
         maxbestel: maxaantal
     };
-    Soep.create(nieuw, function (err, gerecht) {
+    collectie.create(nieuw, function (err, gerecht) {
         if (err) {
             console.log("er is iets fout gegaan" + err);
         } else {
