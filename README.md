@@ -37,3 +37,5 @@ wijzigingen:
 18: Soep schema aangemaakt voor gebruik in soep collection db, id's van input velden nieuwgerecht veranderd in name voor schema's.
 
 19: variabele soep aangemaakt, hiermee wordt de collectie aangemaakt in de db.
+
+20: post naar database van soep ingevoerd.

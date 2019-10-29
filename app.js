@@ -1,5 +1,8 @@
 const   express     = require("express"),
-        mongoose    = require("mongoose");
+        mongoose    = require("mongoose"),
+        bodyParser  = require("body-parser");
+
+        // ik weet niet zeker of body-parser al nodig is maar voor de zekerheid toegevoegd.
 
 let app = express();
 
@@ -29,9 +32,23 @@ app.get("/menu", function (req, res) {
 });
 
 // nieuw menu item in de db zetten en menu pagina weergeven
-// app.post("menu", function (req, res) {
-    
-// });
+app.post("/menu", function (req, res) {
+    var     naam    = req.body.naamGerecht;
+    var     prijs   = req.body.prijs,
+            maxaantal  = req.body.maxbestel;
+    var nieuw = {
+        naamGerecht: naam, 
+        prijs: prijs, 
+        maxbestel: maxaantal
+    };
+    Soep.create(nieuw, function (err, gerecht) {
+        if (err) {
+            console.log("er is iets fout gegaan" + err);
+        } else {
+            res.redirect("/menu");
+        }
+    });
+});
 
 // nieuw menu item form pagina weergeven
 app.get("/menu/new", function (req, res) {
