@@ -39,3 +39,5 @@ wijzigingen:
 19: variabele soep aangemaakt, hiermee wordt de collectie aangemaakt in de db.
 
 20: post naar database van soep ingevoerd.
+
+21: app use bodyparser ingesteld zodat de gegevens uit het formulier in de db gezet worden.

@@ -19,6 +19,7 @@ var Soep = mongoose.model("Soepen", soepSchema)
 
 // viewengine instellen, hierdoor hoeft er geen filetype achter de namen gezet te worden.
 app.set("view engine", "ejs");
+app.use(bodyParser.urlencoded({extended: true}));
 
 // landings pagina weergeven
 app.get("/", function (req, res) {
