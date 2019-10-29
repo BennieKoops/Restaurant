@@ -6,7 +6,7 @@ let app = express();
 // mongoose db verbinding
 mongoose.connect("mongodb://localhost:27017/restaurant", {'useUnifiedTopology': true, 'useNewUrlParser': true})
 
-// viewengine instellen
+// viewengine instellen, hierdoor hoeft er geen filetype achter de namen gezet te worden.
 app.set("view engine", "ejs");
 
 // landings pagina weergeven
@@ -25,6 +25,10 @@ app.get("/menu", function (req, res) {
     
 // });
 
+// nieuw menu item form pagina weergeven
+app.get("/menu/nieuwgerecht", function (req, res) {
+   res.render("nieuwGerecht") 
+});
 
 // Review pagina
 app.get("/reviews", function (req, res) {

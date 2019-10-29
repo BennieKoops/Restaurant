@@ -29,3 +29,5 @@ wijzigingen:
 14: Begin post route ingesteld voor menu.
 
 15: Post route uitgecomment, nieuwgerecht ejs bestand aangemaakt en begin gemaakt met html form nieuw gerecht.
+
+16: Res.render ingesteld voor nieuwGerecht zodat de pagina weergegeven wordt.
