@@ -6,6 +6,12 @@ let app = express();
 // mongoose db verbinding
 mongoose.connect("mongodb://localhost:27017/restaurant", {'useUnifiedTopology': true, 'useNewUrlParser': true})
 
+var Soep = mongoose.Schema({
+    naamGerecht: String,
+    prijs: Number,
+    maxbestel: Number
+});
+
 // viewengine instellen, hierdoor hoeft er geen filetype achter de namen gezet te worden.
 app.set("view engine", "ejs");
 

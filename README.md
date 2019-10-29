@@ -33,3 +33,5 @@ wijzigingen:
 16: Res.render ingesteld voor nieuwGerecht zodat de pagina weergegeven wordt.
 
 17: Adress van nieuwgerecht gewijzigd naar new voor RESTful routing, Radio inputs toegevoegd in nieuwGerecht form.
+
+18: Soep schema aangemaakt voor gebruik in soep collection db, id's van input velden nieuwgerecht veranderd in name voor schema's.
