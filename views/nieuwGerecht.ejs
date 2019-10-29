@@ -1,0 +1,25 @@
+<% include partials/header %>
+
+    <div>
+        <header>
+            <h1>Nieuw menu item</h1>
+        </header>
+        <div>
+            <form action="/menu" method="post">
+                <input type="text" id="naamGerecht" placeholder="naam gerecht"><br>
+                <p>
+                    €
+                </p>
+                <input type="number" id="prijs" placeholder="prijs"><br>
+                <p>
+                    maximaal bestelbaar:
+                </p>
+                <input type="number" id="maxbestel" placeholder="0"><br>
+                <button type="submit">
+                    invoeren
+                </button>
+            </form>
+        </div>
+    </div>
+
+<% include partials/footer %>

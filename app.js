@@ -21,10 +21,9 @@ app.get("/menu", function (req, res) {
 });
 
 // nieuw menu item in de db zetten en menu pagina weergeven
-app.post("menu", function (req, res) {
+// app.post("menu", function (req, res) {
     
-});
-
+// });
 
 
 // Review pagina

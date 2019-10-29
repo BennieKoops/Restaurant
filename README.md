@@ -26,4 +26,6 @@ wijzigingen:
 
 13: Menu naar render gezet.
 
-14: Post route ingesteld voor menu.
+14: Begin post route ingesteld voor menu.
+
+15: Post route uitgecomment, nieuwgerecht ejs bestand aangemaakt en begin gemaakt met html form nieuw gerecht.
