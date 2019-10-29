@@ -21,3 +21,5 @@ wijzigingen:
 10: ejs bestanten aangemaakt voor bestellingen, blog, menu en reviews
 
 11: Header en Footer gelinkt aan nieuwe pagina's.
+
+12: mongoose db verbinding ingesteld. Objecten in het commando zorgen ervoor dat er geen meldingen komen voor verouderde services.

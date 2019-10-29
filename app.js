@@ -1,10 +1,15 @@
-const express = require("express");
+const   express     = require("express"),
+        mongoose    = require("mongoose");
 
 let app = express();
 
+// mongoose db verbinding
+mongoose.connect("mongodb://localhost:27017/restaurant", {'useUnifiedTopology': true, 'useNewUrlParser': true})
+
+// viewengine instellen
 app.set("view engine", "ejs");
 
-// landings pagina
+// landings pagina verbinden en leveren
 app.get("/", function (req, res) {
     res.render("index");
 });
