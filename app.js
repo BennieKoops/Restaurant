@@ -26,7 +26,7 @@ app.get("/menu", function (req, res) {
 // });
 
 // nieuw menu item form pagina weergeven
-app.get("/menu/nieuwgerecht", function (req, res) {
+app.get("/menu/new", function (req, res) {
    res.render("nieuwGerecht") 
 });
 

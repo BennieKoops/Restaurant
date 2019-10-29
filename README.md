@@ -31,3 +31,5 @@ wijzigingen:
 15: Post route uitgecomment, nieuwgerecht ejs bestand aangemaakt en begin gemaakt met html form nieuw gerecht.
 
 16: Res.render ingesteld voor nieuwGerecht zodat de pagina weergegeven wordt.
+
+17: Adress van nieuwgerecht gewijzigd naar new voor RESTful routing, Radio inputs toegevoegd in nieuwGerecht form.
