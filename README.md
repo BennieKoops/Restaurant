@@ -47,3 +47,5 @@ wijzigingen:
 23: menu pagina html toegevoegd, mongoose.model in een functie gezet.
 
 24: link naar semantic ui style framework gemaakt in header, knop die linkt naar nieuwgerecht pagina gemaakt op menu pagina.
+
+25: navbar aangemaakt en links naar momenteel geplande pagina's ingesteld.
