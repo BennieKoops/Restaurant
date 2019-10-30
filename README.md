@@ -45,3 +45,5 @@ wijzigingen:
 22: nieuwGerecht input radio ids veranderd in value, soepschema hernoemt naar schema, variabele aangemaakt die value van geselecteerde radio binnenhaald, mongoose model veranderd zodat variabele gebruikt wordt en hernoemd naar collectie, binnen post request gezet.
 
 23: menu pagina html toegevoegd, mongoose.model in een functie gezet.
+
+24: link naar semantic ui style framework gemaakt in header, knop die linkt naar nieuwgerecht pagina gemaakt op menu pagina.
