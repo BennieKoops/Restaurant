@@ -15,7 +15,14 @@ var schema = mongoose.Schema({
     maxbestel: Number
 });
 
-// var Soep = mongoose.model("Soepen", soepSchema)
+var collectie;
+
+// collectie keuze zorgt ervoor dat mongoose.molder(variabele) gebruikt kan worden op meerder plekken.
+// de mongoose model kan binnen de app.post aangegeven worden maar dan moet het bij iedere post ingevoerd worden.
+// met deze functie hoeft dat niet.
+function collectiekeuze(keuze) {
+    collectie = mongoose.model(keuze, schema);
+}
 
 // viewengine instellen, hierdoor hoeft er geen filetype achter de namen gezet te worden.
 app.set("view engine", "ejs");
@@ -29,14 +36,13 @@ app.get("/", function (req, res) {
 // menu pagina
 // menu pagina weergeven
 app.get("/menu", function (req, res) {
-    res.render("menu")
+    res.render("menu", )
 });
 
 // nieuw menu item in de db zetten en menu pagina weergeven
 app.post("/menu", function (req, res) {
-    var collectiekeuze = req.body.gang;
-    var collectie = mongoose.model(collectiekeuze, schema)
-
+    var keuze = req.body.gang;
+    collectiekeuze(keuze);
     var     naam    = req.body.naamGerecht;
     var     prijs   = req.body.prijs,
             maxaantal  = req.body.maxbestel;
