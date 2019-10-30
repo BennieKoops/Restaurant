@@ -49,3 +49,5 @@ wijzigingen:
 24: link naar semantic ui style framework gemaakt in header, knop die linkt naar nieuwgerecht pagina gemaakt op menu pagina.
 
 25: navbar aangemaakt en links naar momenteel geplande pagina's ingesteld.
+
+26: Plaatshouders in de nog te maken pagina's gezet en res.send vervangen door render.

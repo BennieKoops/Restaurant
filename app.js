@@ -67,17 +67,17 @@ app.get("/menu/new", function (req, res) {
 
 // Review pagina
 app.get("/reviews", function (req, res) {
-    res.send("Hier komt de reviews pagina")
+    res.render("reviews")
 });
 
 // blog pagina
 app.get("/blog", function (req, res) {
-    res.send("Hier komt de blog pagina")
+    res.render("blog")
 });
 
 // bestellingen pagina
 app.get("/bestellig", function (req, res) {
-    res.send("Hier komt de bestellingen pagina")
+    res.render("bestellingen")
 });
 
 // vvv Dit moet altijd onderaan staan vvv
