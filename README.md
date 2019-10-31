@@ -52,4 +52,4 @@ wijzigingen:
 
 26: Plaatshouders in de nog te maken pagina's gezet en res.send vervangen door render.
 
-27: Link naar eign css bestand gemaakt. Het css bestand maakt momenteel alleen het icoon groter.
+27: Link naar eigen CSS bestand gemaakt. Het CSS bestand maakt momenteel alleen het icoon groter.
