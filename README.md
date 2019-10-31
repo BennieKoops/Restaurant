@@ -18,7 +18,7 @@ wijzigingen:
 
 9: App.get ingesteld voor menu, review, blog en bestellingen pagina's.
 
-10: ejs bestanten aangemaakt voor bestellingen, blog, menu en reviews
+10: Ejs bestanten aangemaakt voor bestellingen, blog, menu en reviews
 
 11: Header en Footer gelinkt aan nieuwe pagina's.
 
@@ -36,18 +36,20 @@ wijzigingen:
 
 18: Soep schema aangemaakt voor gebruik in soep collection db, id's van input velden nieuwgerecht veranderd in name voor schema's.
 
-19: variabele soep aangemaakt, hiermee wordt de collectie aangemaakt in de db.
+19: Variabele soep aangemaakt, hiermee wordt de collectie aangemaakt in de db.
 
-20: post naar database van soep ingevoerd.
+20: Post naar database van soep ingevoerd.
 
-21: app use bodyparser ingesteld zodat de gegevens uit het formulier in de db gezet worden.
+21: App use bodyparser ingesteld zodat de gegevens uit het formulier in de db gezet worden.
 
-22: nieuwGerecht input radio ids veranderd in value, soepschema hernoemt naar schema, variabele aangemaakt die value van geselecteerde radio binnenhaald, mongoose model veranderd zodat variabele gebruikt wordt en hernoemd naar collectie, binnen post request gezet.
+22: NieuwGerecht input radio ids veranderd in value, soepschema hernoemt naar schema, variabele aangemaakt die value van geselecteerde radio binnenhaald, mongoose model veranderd zodat variabele gebruikt wordt en hernoemd naar collectie, binnen post request gezet.
 
-23: menu pagina html toegevoegd, mongoose.model in een functie gezet.
+23: Menu pagina html toegevoegd, mongoose.model in een functie gezet.
 
-24: link naar semantic ui style framework gemaakt in header, knop die linkt naar nieuwgerecht pagina gemaakt op menu pagina.
+24: Link naar semantic ui style framework gemaakt in header, knop die linkt naar nieuwgerecht pagina gemaakt op menu pagina.
 
-25: navbar aangemaakt en links naar momenteel geplande pagina's ingesteld.
+25: Navbar aangemaakt en links naar momenteel geplande pagina's ingesteld.
 
 26: Plaatshouders in de nog te maken pagina's gezet en res.send vervangen door render.
+
+27: Link naar eign css bestand gemaakt. Het css bestand maakt momenteel alleen het icoon groter.

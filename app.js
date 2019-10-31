@@ -6,6 +6,8 @@ const   express     = require("express"),
 
 let app = express();
 
+app.use(express.static("public"));
+
 // mongoose db verbinding
 mongoose.connect("mongodb://localhost:27017/restaurant", {'useUnifiedTopology': true, 'useNewUrlParser': true})
 
