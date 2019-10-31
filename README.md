@@ -1,3 +1,7 @@
+project gestopt, herstart in nieuw vergelijkbaar project.
+link naar trello van dat project: https://trello.com/b/OiSpVm58
+link naar nieuwe repository volgt.
+
 wijzigingen:
 
 1: HTML in header en footer gezet.
